@@ -1,0 +1,13 @@
+{
+  "solidity.defaultCompiler": "remote",
+  "solidity.compileUsingRemoteVersion": "0.8.23",
+  "files.associations": {
+    "*.sol": "solidity"
+  },
+  "[solidity]": {
+    "editor.defaultFormatter": "JuanBlanco.solidity",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
+  }
+}
+
