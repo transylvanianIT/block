@@ -1,0 +1,8 @@
+out/
+cache/
+broadcast/
+.chainid
+lib/
+.env
+*.log
+
