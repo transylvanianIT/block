@@ -1,0 +1,50 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hand {
+  font-size: 80px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.hand.bouncing {
+  animation: bounce 0.5s infinte;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.hands-cotainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover{
+  background: #4CAF50;
+}
+
+button:disabled{
+  background: #ccc;
+  cursor: not-allowed;
+}
